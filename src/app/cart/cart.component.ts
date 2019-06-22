@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from '../cart.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-cart',
